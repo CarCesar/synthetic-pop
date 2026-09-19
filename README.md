@@ -39,13 +39,11 @@ do Censo
 > **Demografia** passa por um tratamento prévio para resolver o
 > mascaramento de dados descrito na Seção 2.1.2.1 do trabalho.
 
-O tratamento é realizado pela função `Demografia_sem_mascara`, que
-recebe a tabela original. Como esse processamento é mais lento, ele deve
+O tratamento é realizado recebe a tabela original. Como esse processamento é mais lento, ele deve
 ser realizado uma única vez antes da geração da população.
 
 Portanto, sempre que a tabela de **Demografia** for mencionada na
-execução do algoritmo, deve-se considerar a tabela resultante da função
-`Demografia_sem_mascara`.
+execução do algoritmo, deve-se considerar a tabela resultante da tranformação(`completademografia.ipynb`).
 
 ### Malhas dos setores censitários
 
